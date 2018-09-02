@@ -1,7 +1,8 @@
 #
-FIND_PACKAGE(wxWidgets 3 REQUIRED
+FIND_PACKAGE(wxWidgets 3 COMPONENTS
   std
   richtext
+  REQUIRED
   )
 
 ADD_SUBDIRECTORY(ui)
